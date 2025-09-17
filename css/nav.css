@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+}
+nav > ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:1.5rem;
+    width: 100%;
+    background-color: hsl(0, 0%, 70%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav a{
+    color: hsl(0, 0%, 30%);
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+nav a.active{
+    color: black;
+}
