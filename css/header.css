@@ -18,7 +18,7 @@ header > div{
 #header-img:hover{
   opacity: 0.5;
 }
-}
+
 header > div:last-child{
   display: flex;
   gap: 0.5rem;

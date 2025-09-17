@@ -1,0 +1,11 @@
+#hero-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#notes{
+    display: grid;
+    grid-template-columns: 2rem 2rem;
+    justify-content: space-between;
+}
