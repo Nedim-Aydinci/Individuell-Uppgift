@@ -14,12 +14,10 @@ header > div{
   justify-content: center;
   width: 80%;
 }
-#header-img {
+header > div:last-child{
   display: flex;
-  align-items: center;
   gap: 0.5rem;
 }
-header div:last-chil {
-  display: flex;
-  gap:5rem;
-}
+
+
+
