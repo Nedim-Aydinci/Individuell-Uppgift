@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(0, 0, 0);
-  --secondary-color: rgb(119, 127, 116);
+  --secondary-color: darkgrey;
   --secondary-color-hover: #131212;
   --background-color: #d2d2d2;
 
@@ -8,7 +8,7 @@
 
   --primary-text-color: black;
   --secondary-text-color: rgb(255, 255, 255);
-  --nav-text-color: hsl(0, 0%, 5%);
+  --nav-text-color: rgb(46, 46, 46);
 }
 
 * {
