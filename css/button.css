@@ -19,6 +19,6 @@
 }
 
 .btn-secondary:hover{
-    opacity: 0.6;
-    background-color: var(--secondary-color-hover);
+    opacity: 0.9;
+    background-color: var(--border-color);
 }

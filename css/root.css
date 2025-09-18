@@ -1,14 +1,14 @@
 :root {
   --primary-color: rgb(0, 0, 0);
-  --secondary-color: rgb(81, 81, 76);
-  --secondary-color-hover: #dfdfdf;
+  --secondary-color: rgb(119, 127, 116);
+  --secondary-color-hover: #131212;
   --background-color: #d2d2d2;
 
-  --border-color: #c5c5c5;
+  --border-color: #e6e1e1;
 
   --primary-text-color: black;
   --secondary-text-color: rgb(255, 255, 255);
-  --nav-text-color: hsl(0, 0%, 70%);
+  --nav-text-color: hsl(0, 0%, 5%);
 }
 
 * {
