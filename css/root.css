@@ -1,22 +1,57 @@
-:root {
-  --primary-color: rgb(0, 0, 0);
-  --secondary-color: darkgrey;
-  --secondary-color-hover: #131212;
-  --background-color: #d2d2d2;
-
-  --border-color: #e6e1e1;
-
-  --primary-text-color: black;
-  --secondary-text-color: rgb(255, 255, 255);
-  --nav-text-color: rgb(46, 46, 46);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: BBCReithSerif-fallback, serif;
-    /*background-color: var(--background-color);*/
+:root{
+  --top-primary-color: #ffffff;
+  --top-primary-background: #000000;
+  --top-btn-background: #005c8a;
+  --top-btn-background-hover: rgb(43, 87, 73);
+  --top-nav:#222;
+  --bottom-nav: #1d1d1b;
+  
+  --body-left-title: #bf0000;
+  --body-header: #000000;
+  --body-p: #696969;
+  --body-time: #aaaaaa;
+  --hero-background: #F7F7F7;
+  --spacer: #cccccc;
+  --footer-background:#BABABA;
+}
+h2{
+  font-family: Times Modern, Times Modern-fallback, serif;
+  font-size: 1.4rem;
+  line-height: 1.125;
+  font-weight: 700;
+}
+h3{
+  font-family: Times Modern, Times Modern-fallback, serif;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+p{
+  font-family: Times Digital W04 Regular, Times Digital W04 Regular-fallback, serif;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--body-p);
+}
+span{
+  font-family: Roboto, Roboto-fallback, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 0.5rem;
+  color: var(--body-time);
+}
+#title{
+  color: var(--body-left-title);
+  font-family: Roboto, Roboto-fallback, sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 1.1rem;
+}
+a{
+  font-size: 12px;
+  font-weight: 600;
 }
