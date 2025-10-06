@@ -50,9 +50,6 @@ body{
   cursor: pointer;
    
 }
-#right button:hover{
-  background-color: var(--top-btn-background-hover);
-}
 
 #left > nav ul {
     display: none;
@@ -69,9 +66,6 @@ body{
     z-index: 1001;
 }
 
-#hamburger summary::-webkit-details-marker {
-    display: none;
-}
 
 #hamburger svg.open {
     display: none;
