@@ -351,14 +351,9 @@ footer .container{
   align-items: center;
   justify-content: center;
   padding: 8px;
-  transition: transform 0.3s ease;
   
- 
 }
 
-#link > a:hover {
-  transform: scale(1.1);
-}
 #link > a >img{
   gap:10px;
   background-color: transparent;
