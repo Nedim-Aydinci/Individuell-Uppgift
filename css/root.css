@@ -10,6 +10,7 @@
   --top-btn-background-hover: rgb(43, 87, 73);
   --top-nav:#222;
   --bottom-nav: #1d1d1b;
+  --box-shadow: rgba(0,0,0,0.3);
   
   --body-left-title: #bf0000;
   --body-header: #000000;
@@ -18,6 +19,8 @@
   --hero-background: #F7F7F7;
   --spacer: #cccccc;
   --footer-background:#BABABA;
+  --center-down:#666;
+  --hamburger-border-bttm: #444;
 }
 h2{
   font-family: Times Modern, Times Modern-fallback, serif;
